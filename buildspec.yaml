@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 0.2
 
 phases:
@@ -7,4 +8,15 @@ phases:
 
 artifacts:
   files:
+=======
+version: 0.2
+
+phases:
+  pre_build: 
+    commands:
+        - npm install
+
+artifacts:
+  files:
+>>>>>>> 0c96d11fd1fa17be8c16b11e671b7cba95934ccd
     - '**/*'        
